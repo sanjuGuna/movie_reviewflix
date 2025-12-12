@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import './App.css'
 
-const API_BASE = 'https://movie-reviewflix.onrender.com'
+const API_BASE = import.meta.env.VITE_BASE_URL || 'http://localhost:4000'
 
 function App() {
   const [token, setToken] = useState(localStorage.getItem('token') || '')
