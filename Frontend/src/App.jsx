@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import './App.css'
 
-const API_BASE = 'http://localhost:5000'
+const API_BASE = 'https://movie-reviewflix.onrender.com'
 
 function App() {
   const [token, setToken] = useState(localStorage.getItem('token') || '')
