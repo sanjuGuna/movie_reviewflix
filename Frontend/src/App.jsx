@@ -205,7 +205,7 @@ function App() {
 
   return (
     <div>
-      <h1>Movie Review System (Very Simple Frontend)</h1>
+      <h1>Movie Review System</h1>
 
       {/* AUTH SECTION */}
       <section className="card">
